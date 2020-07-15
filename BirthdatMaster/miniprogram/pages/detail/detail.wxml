@@ -1,0 +1,17 @@
+<!--pages/detail/detail.wxml-->
+<view class="avatarBox">
+<image src="{{info.avatar}}"></image>
+<view>{{info.name}}</view>
+</view>
+
+<van-cell-group>
+<van-cell title="性别" value="{{info.gender==1?'男':'女'}}"/>
+<van-cell title="生日" value="{{info.birthday}}"/>
+<van-cell title="电话" value="{{info.tel}}"/>
+<van-cell title="关系" value="{{info.relationship}}"/>
+<van-cell title="距离出生已经" value="{{n1}}天"/>
+<van-cell title="距离下个生日还有" value="{{n2}}天"/>
+</van-cell-group>
+
+<van-button block type="warning" bindtap="editFriend">修改</van-button>
+<van-button block type="danger" bindtap="deleteFriend">删除</van-button>

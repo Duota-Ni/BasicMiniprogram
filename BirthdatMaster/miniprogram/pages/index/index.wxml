@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<van-button type="default" bindtap="addFriend" block>添加新朋友</van-button>
+
+
+<van-search placeholder="请输入搜索关键词" show-action bind:search="onSearch" bind:cancel="onCancel" />
+
+
+<block wx:for="{{friendsList}}" wx:key="_id">
+	<van-card centered desc="{{item.date}}" title="{{item.name}}" thumb-link="../detail/detail?id={{item._id}}&n2={{item.n}}" thumb="{{item.avatar}}">
+		<view slot="footer">距离下个生日
+			<text style="color:red;font_weight:bold;">{{item.n}}天</text>
+		</view>
+    </van-card>
+</block>

@@ -1,0 +1,14 @@
+/* pages/detail/detail.wxss */
+.avatarBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatarBox image{
+  width: 200rpx;
+  height:200rpx;
+  margin: 20rpx;
+}
+.avatarBox view{
+  margin-bottom: 50rpx;
+}

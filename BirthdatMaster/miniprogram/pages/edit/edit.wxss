@@ -1,0 +1,33 @@
+/* pages/edit/edit.wxss */
+van-row{
+  margin: 20rpx 20rpx;
+  text-align: center;
+}
+label{
+  padding: 10rpx;
+  color: #DE6E6D;
+  line-height: 80rpx;
+}
+input{
+  border: 1rpx solid #DE6E6D;
+  width: 480rpx;
+  height: 80rpx;
+  border-radius: 20rpx;
+}
+radio-group{
+  width: 480rpx;
+  line-height: 80rpx;
+}
+radio{
+  margin: 0 20rpx;
+}
+
+picker view{
+  width: 480rpx;
+  line-height: 80rpx;
+}
+button{
+  margin: 20rpx;
+  background-color: #DE6E6D;
+  color: white;
+}
