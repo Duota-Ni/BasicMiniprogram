@@ -1,0 +1,7 @@
+/* pages/detail/detail.wxss */
+image{
+  width:750rpx;
+}
+button{
+  margin:10rpx;
+}
