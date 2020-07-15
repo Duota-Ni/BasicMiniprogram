@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+<!--1-->
+ <video id="myVideo" src="{{src}}" controls enable-danmu danmu-btn ></video>
+
+<!--2-->
+ <view class="danmuArea">
+  <input type="text" placeholder="请输入弹幕内容" bindinput="getDanmu"></input>
+  <button bindtap="sendDanmu">发送弹幕</button>
+ </view>
+<!--3-->
+ <view class="videoList">
+  <view class="videoBar" wx:for='{{list}}' wx:key='id' data-url='{{item.videoUrl}}' bindtap="playVideo">
+   <image src="/images/play.png"> </image>
+   <text>{{item.title}}</text>
+  </view>
+ </view>
+
+</view>
