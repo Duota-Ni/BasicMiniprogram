@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/detail/detail",
+    "pages/hotmovie/hotmovie",
+    "pages/weekly/weekly"
+  ],
+"tabBar":{
+  "list":[
+    {
+      "text":"每周推荐",
+      "pagePath":"pages/weekly/weekly",
+      "iconPath":"images/weekly.png",
+      "selectedIconPath":"images/weekly-selected.png"
+    },
+    {
+      "text": "关于",
+      "pagePath": "pages/about/about",
+      "iconPath": "images/about.png",
+      "selectedIconPath": "images/about-selected.png"
+    }
+  ],
+  "color": "#000000",
+  "selectedColor":"#00f"
+},
+"window": {
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "电影周周看"
+},
+"sitemapLocation":"sitemap.json"
+}

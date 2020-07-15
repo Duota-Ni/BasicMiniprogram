@@ -1,0 +1,5 @@
+/* pages/hotmovie/hotmovie.wxss */
+.movie-image-hotmovie{
+  width: 600rpx;
+  height: 600rpx;
+}

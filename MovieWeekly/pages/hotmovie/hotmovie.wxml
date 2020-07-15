@@ -1,0 +1,14 @@
+<!--pages/hotmovie/hotmovie.wxml-->
+<view class="container" wx:for="{{movie.ms}}">
+<view>
+<image class="movie-image-hotmovie" src="{{item.img}}"></image>
+</view>
+
+<view class="movie-datails">
+<text style="color:blue">片名:</text><text>{{item.tCn}}\n</text>
+<text style="color:green">演员：</text><text>{{item.actors}}\n</text>
+<text style="color:green">电影类型：</text><text>{{item.movieType}}\n</text>
+<text style="color:green">介绍：</text><text>{{item.commonSpecial}}\n</text>
+</view>
+
+</view>

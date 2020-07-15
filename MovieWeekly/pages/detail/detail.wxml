@@ -1,0 +1,14 @@
+<!--pages/detail/ldetail.wxml-->
+<view class="container">
+	<view>
+		<image class="movie-image" src="{{movie.data.basic.img}}"></image>
+	</view>
+	<view class="movie-datails">
+		<text style="color:blue">片名:</text><text>{{movie.data.basic.name}}\n</text>
+		<text style="color:green">导演：</text><text>{{movie.data.basic.director.name}}\n</text>
+		<text style="color:green">评分：</text><text>{{movie.data.basic.overallRating}}\n</text>
+		<text style="color:green">电影类型：</text><text>{{movie.data.basic.type}}\n</text>
+		<text style="color:green">介绍：</text><text>{{movie.data.basic.story}}\n</text>
+	</view>
+
+</view>

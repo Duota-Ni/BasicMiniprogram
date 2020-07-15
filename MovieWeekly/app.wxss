@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  background-color: #fff;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+} 
+.movie{
+  display: flex;
+}
+.movie-details{
+  display: flex;
+  flex-direction: column;
+  width: 550rpx;
+}
+.movie-image{
+  width: 500rpx;
+  height: 500rpx;
+}

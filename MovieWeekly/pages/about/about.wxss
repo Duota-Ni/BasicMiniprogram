@@ -1,0 +1,12 @@
+/* pages/about/about.wxss */
+.nav-default{
+  color: blue;
+}
+.nav-hover{
+  color: red;
+}
+.about-banner{
+  width: 375rpx;
+  height: 375rpx;
+  border-radius: 50%;
+}
