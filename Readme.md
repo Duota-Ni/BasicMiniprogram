@@ -10,6 +10,6 @@ img{
     width:30%;
 }
 </style>  
-<img src="zimages/BMindex.png"/>
-<img src="zimages/BMedit.png"/>
-<img src="zimages/BMdetail.png"/>
+<img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMindex.png"/>
+<img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMedit.png"/>
+<img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMdetail.pngg"/>
