@@ -10,7 +10,7 @@ img{
     width:30%;
 }
 </style>  
-<img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMindex.png"/>
+<img src="https://www.baidu.com/img/flexible/logo/pc/result@2.png"/>
 <img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMedit.png"/>
 <img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMdetail.pngg"/>
-![index](https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMindex.png)
+![index](https://www.baidu.com/img/flexible/logo/pc/result@2.png)
