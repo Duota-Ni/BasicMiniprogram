@@ -3,14 +3,22 @@
 
 ### 1、BirthdatMaster生日管家小程序    
 功能：通过表单存储数据到云数据库，把数据库的数据渲染到首页，点击单项人物获取人物生日数据并计算生日距今日剩余时间达到管理生日的效果。  
-页面截图：
-<style>
-img{
-    display:inline;
-    width:30%;
-}
-</style>  
-<img src="https://www.baidu.com/img/flexible/logo/pc/result@2.png"/>
-<img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMedit.png"/>
-<img src="https://github.com/Duota-Ni/BasicMiniprogram/blob/master/zimages/BMdetail.pngg"/>
-![index](https://www.baidu.com/img/flexible/logo/pc/result@2.png)
+使用了有赞UI组件。  
+
+### 2、CloudNewsWeb云开发高校新闻网
+功能：使用云数据库存储数据并获取渲染，收藏功能使用缓存实现，配有登陆功能。
+
+### 3、MovieWeekly电影周周看
+功能：获取时光网电影API接口的电影数据，电影推荐列表使用滑块实现，时光网的数据存储格式是json。
+
+### 4、MyBookStore我的书橱
+功能：本地服务器存放电子书资源，主要使用了文件打开下载阅读等API
+
+### 5、PictureShare图片分享社区
+功能：图片的上传下载预览分享展示，获取用户信息，使用云开发。
+
+### 6、VideoPlay视频播放
+功能：渲染视频列表播放视频，同时可以发送彩色弹幕。
+
+### 7、Weather天气预报
+功能：使用和风天气API获取天气数据，地区选择使用picker选择器。
